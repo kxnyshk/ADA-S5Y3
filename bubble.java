@@ -11,7 +11,7 @@ public class bubble {
         System.out.println("\nBefore sorting:");
         print(a,n);
         sort(a,n);
-        System.out.println("\n\nAfter sorting:");
+        System.out.println("\nAfter sorting:");
         print(a,n);
     }
 
@@ -43,5 +43,6 @@ public class bubble {
         for(int i=0; i<n; i++){
             System.out.print(array[i] + " ");
         }
+        System.out.println("\n");
     }
 }
